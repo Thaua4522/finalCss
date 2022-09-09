@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="bt_menu" />
+    <label for="bt_menu">☰</label>
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Produtos</a>
+                <ul>
+                    <li><a href="#">categorias</a>
+                        <ul>
+                            <li><a href="">Ação e aventura</a></li>
+                            <li><a href="">Autoajuda</a></li>
+                            <li><a href="">Romance</a></li>
+                            <li><a href="">Fantasia</a></li>
+                            <li><a href="">Infantil</a></li>
+                            <li><a href="">Horror</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">destaques</a></li>
+                </ul>
+            </li>
+
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="./imagens/livro1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./imagens/livro2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./imagens/livro3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./imagens/livro4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./imagens/livro5.jpg" 1 alt="">
+            </div>
+            <div class="navegation">
+                <label class="SlideLabel" for="slide1"></label>
+                <label class="SlideLabel" for="slide2"></label>
+                <label class="SlideLabel" for="slide3"></label>
+                <label class="SlideLabel" for="slide4"></label>
+                <label class="SlideLabel" for="slide5"></label>
+            </div>
+        </div>
+    </div>
+
+
+  </body>
+</body>
+</html>
